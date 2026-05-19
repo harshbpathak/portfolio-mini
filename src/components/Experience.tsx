@@ -17,13 +17,13 @@ const experience = [
     desc: "Contributing to the IntelOwl open source project.",
     tags: ["Django", "CI/CD", "Python"],
   },
-  {
-    period: "future",
-    company: "Soon to be!!",
-    role: "Full-Stack ML Engineer",
-    desc: "Built data labeling pipelines and quality assurance systems for computer vision datasets. Shipped annotation tools used by 5k+ labelers.",
-    tags: ["React", "Python", "FastAPI", "PostgreSQL"],
-  },
+  // {
+  //   period: "future",
+  //   company: "Soon to be!!",
+  //   role: "Full-Stack ML Engineer",
+  //   desc: "Built data labeling pipelines and quality assurance systems for computer vision datasets. Shipped annotation tools used by 5k+ labelers.",
+  //   tags: ["React", "Python", "FastAPI", "PostgreSQL"],
+  // },
 ];
 
 export function Experience() {
@@ -70,9 +70,9 @@ export function Experience() {
         <Reveal>
           <SectionLabel>// experience</SectionLabel>
           <h2 className="font-mono font-bold text-4xl md:text-5xl mb-3">Where I've Worked</h2>
-          <p className="text-muted-foreground text-lg mb-16">
+          {/* <p className="text-muted-foreground text-lg mb-16">
             From open-source contributions to scaling AI at top companies.
-          </p>
+          </p> */}
         </Reveal>
 
         <div className="relative pl-8 md:pl-10">
