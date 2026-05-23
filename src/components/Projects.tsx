@@ -6,7 +6,7 @@ const projects = [
   {
     name: "PRISM.ai",
     desc: "PRISM.ai is a next-generation supply chain intelligence platform that combines AI agents, digital twin visualization, ML-powered risk prediction, and multi-agent orchestration to help businesses proactively identify, assess, and mitigate supply chain risks.",
-    tags: ["Next.js", "TypeScript", "Gemini API", "Supabase", "Tailwind CSS", "Recharts"],
+    tags: ["Next.js", "Agentic-AI", "Gemini API", "Supabase", "Tailwind CSS", "Recharts"],
   },
   {
     name: "NetSecure",

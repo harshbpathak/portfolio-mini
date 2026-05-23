@@ -2,13 +2,14 @@ import { useEffect, useRef, useState } from "react";
 import { GITHUB, TWITTER } from "@/lib/constants";
 import { GithubIcon, TwitterIcon } from "@/components/Icons";
 
-const NAV_SECTIONS = ["about", "skills", "projects", "experience", "contact"];
+const NAV_SECTIONS = ["about", "skills", "projects", "experience", "awards", "contact"];
 
 const links = [
   { href: "#about",      label: "About" },
   { href: "#skills",     label: "Skills" },
   { href: "#projects",   label: "Projects" },
   { href: "#experience", label: "Experience" },
+  { href: "#awards",     label: "Awards" },
   { href: "#contact",    label: "Contact" },
 ];
 

@@ -29,9 +29,7 @@ export function Hero() {
         </h1>
 
         {/* Handle */}
-        <p className="hero-handle font-mono text-muted-foreground mt-3 text-lg">
-          @harshbpathak
-        </p>
+        <p className="hero-handle font-mono text-muted-foreground mt-3 text-lg">@harshbpathak</p>
 
         {/* Bio */}
         <p className="hero-body text-lg text-foreground/85 mt-8 leading-relaxed max-w-2xl">
@@ -60,11 +58,16 @@ export function Hero() {
 
         {/* Socials */}
         <div className="hero-socials flex items-center gap-5 mt-8 text-muted-foreground">
-          <a href={GITHUB} target="_blank" rel="noreferrer"
+          <a
+            href={GITHUB}
+            target="_blank"
+            rel="noreferrer"
             className="hover:text-accent transition-colors duration-200">
             <GithubIcon />
           </a>
-          <a href={TWITTER} target="_blank" rel="noreferrer"
+          <a href={TWITTER} 
+            target="_blank" 
+            rel="noreferrer"
             className="hover:text-accent transition-colors duration-200">
             <TwitterIcon />
           </a>
@@ -72,7 +75,7 @@ export function Hero() {
 
         {/* Scroll indicator */}
         <div
-          className={`hero-scroll mt-24 font-mono text-xs text-muted-foreground flex items-center gap-2 cursor-pointer transition-opacity duration-400 ${scrolled ? "opacity-0 pointer-events-none" : "opacity-100"
+          className={`hero-scroll mt-24 -translate-y-8 font-mono text-xs text-muted-foreground flex items-center gap-2 hover:text-accent transition-all duration-200 ${scrolled ? "opacity-0 pointer-events-none" : "opacity-100"
             }`}
           onClick={() => document.getElementById("about")?.scrollIntoView({ behavior: "smooth" })}
         >
